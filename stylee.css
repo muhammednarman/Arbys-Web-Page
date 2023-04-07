@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.menu {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 100px;
+  background: radial-gradient(#f0483a, #d10a20);
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.yazı {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  max-width: 100px;
+  position: relative;
+  text-decoration: none;
+}
+.liste {
+  display: flex;
+}
+
+.liste li {
+  list-style: none;
+}
+
+.liste li a {
+  position: relative;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.liste li a:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+.icerik {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icerik .metin {
+  width: 150;
+  max-width: 600px;
+}
+
+.metin h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.metin h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.icerik .metin p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7em;
+  margin-top: 30px 0;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  background: white;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 300;
+
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+  transform: scale(1.1);
+  letter-spacing: 0.1em;
+  transition: 0.4s;
+}
+
+.foto img {
+  height: 400px;
+  width: 600px;
+  box-shadow: 5px 5px 5px -1px gold;
+}
+
+.semboller {
+  position: absolute;
+  bottom: 40px;
+  width: 170px;
+  height: 40px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.semboller a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  color: white;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.semboller a:hover {
+  color: black;
+  transform: translateY(-4px);
+}
